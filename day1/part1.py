@@ -9,7 +9,8 @@ def to_digits(line: str) -> int:
 def main():
     with open("input.txt", "r") as file:
         lines = file.readlines()
-        print(sum([to_digits(line) for line in lines]))
+
+    print(sum([to_digits(line) for line in lines]))
 
 
 if __name__ == "__main__":
